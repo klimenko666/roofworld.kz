@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+
+header {
+    background-color: rgb(244, 243, 255);
+}
+
+
+.icon img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.maind {
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+}
+
+.time img {
+    height: 25px;
+    width: 25px;
+}
+
+.time i {
+    position: relative;
+    bottom: 7px;
+}
+
+.contacts {
+    display: flex;
+}
+
+.contacts img {
+    padding-top: 25px;
+    height: 40px;
+    width: 40px;
+}
+
+.contacts a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: rgb(37, 220, 0);
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.links img {
+    margin: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+.links a {
+    text-decoration: none;
+    color: orangered;
+}
+
+
+.catalog {
+    background-color: #3498db;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 20px;
+}
+
+.catalogs {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+
+.catalog-button {
+    background-color: #3498db;
+    height: 100%;
+    padding: 10px 15px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.catalog-button:hover {
+    background-color: #2980b9;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    display: none;
+}
+
+.catalogs:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+
+.dropdown-menu a {
+    color: #ffffff;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f1f1f1;
+}
