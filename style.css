@@ -124,3 +124,46 @@ header {
 .dropdown-menu a:hover {
     background-color: #f1f1f1;
 }
+
+@media only screen and (max-width: 600px) {
+    .maind {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contacts,
+    .links {
+        margin-top: 20px;
+    }
+
+    .links img{
+        padding-right: 25px;
+        margin: 0px;
+        height: 30px;
+        width: 30px;        
+    }
+
+    .contacts img {
+        padding-top: 60px;
+        padding-right: 10px;
+        height: 30px;
+        width: 30px;
+}
+
+    .contacts a,
+    .links a {
+        padding: 0;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .catalogs {
+        flex-direction: row;
+    }
+
+    .catalog-button {
+        height: 40px;
+        width: auto;
+        margin-bottom: 0;
+    }
+}
